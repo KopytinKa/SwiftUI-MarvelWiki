@@ -34,6 +34,7 @@
 		8B00635E276A4313004800FD /* CharacterCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00635D276A4313004800FD /* CharacterCellView.swift */; };
 		8B006361276A5BBC004800FD /* ComicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B006360276A5BBC004800FD /* ComicsView.swift */; };
 		8B006363276A5BCD004800FD /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B006362276A5BCD004800FD /* CharactersView.swift */; };
+		8B006365276A7E0D004800FD /* FormatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B006364276A7E0D004800FD /* FormatType.swift */; };
 		E6EC2F964CECF9E13AA0F3F9 /* Pods_SwiftUI_MarvelWiki_SwiftUI_MarvelWikiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD972C57390F45479682A5 /* Pods_SwiftUI_MarvelWiki_SwiftUI_MarvelWikiUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,7 @@
 		8B00635F276A59F2004800FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8B006360276A5BBC004800FD /* ComicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsView.swift; sourceTree = "<group>"; };
 		8B006362276A5BCD004800FD /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		8B006364276A7E0D004800FD /* FormatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatType.swift; sourceTree = "<group>"; };
 		8BAD972C57390F45479682A5 /* Pods_SwiftUI_MarvelWiki_SwiftUI_MarvelWikiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_MarvelWiki_SwiftUI_MarvelWikiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9436D67760555D8175EFA47E /* Pods-SwiftUI-MarvelWiki-SwiftUI-MarvelWikiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-MarvelWiki-SwiftUI-MarvelWikiUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-MarvelWiki-SwiftUI-MarvelWikiUITests/Pods-SwiftUI-MarvelWiki-SwiftUI-MarvelWikiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB26DB82115A172B38ABBBE3 /* Pods-SwiftUI-MarvelWiki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-MarvelWiki.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-MarvelWiki/Pods-SwiftUI-MarvelWiki.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			children = (
 				8B006339276A0A88004800FD /* DTO */,
 				8B006340276A0A88004800FD /* Network */,
+				8B006364276A7E0D004800FD /* FormatType.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -526,6 +529,7 @@
 				8B006363276A5BCD004800FD /* CharactersView.swift in Sources */,
 				8B006355276A0A88004800FD /* ComicsDisplayItemFabric.swift in Sources */,
 				8B00630F27691021004800FD /* SwiftUI_MarvelWikiApp.swift in Sources */,
+				8B006365276A7E0D004800FD /* FormatType.swift in Sources */,
 				8B006351276A0A88004800FD /* CharacterDTO.swift in Sources */,
 				8B00634E276A0A88004800FD /* ComicsDTO.swift in Sources */,
 				8B00634F276A0A88004800FD /* ThumbnailDTO.swift in Sources */,

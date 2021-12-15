@@ -15,6 +15,21 @@ class ComicsViewModel: ObservableObject {
     private(set) var comics: [ComicsDTO]?
     
     @Published var items: [ComicsDisplayItem] = []
+    @Published var formatTypes: [FormatType] = []
+    
+    var filterText: String {
+        guard !formatTypes.isEmpty else {
+            return "All formats"
+        }
+        
+        return formatTypes
+            .reduce("") { (res, type) -> String in
+                return res.isEmpty
+                ? "Choose: " + type.rawValue
+                : res + ", " + type.rawValue
+            }
+    }
+
     
     init(marvelService: MarvelService) {
         self.marvelService = marvelService
