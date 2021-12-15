@@ -1,0 +1,26 @@
+PODS:
+  - CryptoSwift (1.4.2)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SDWebImageSwiftUI (2.0.2):
+    - SDWebImage (~> 5.10)
+
+DEPENDENCIES:
+  - CryptoSwift (~> 1.4.1)
+  - SDWebImageSwiftUI
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - SDWebImage
+    - SDWebImageSwiftUI
+
+SPEC CHECKSUMS:
+  CryptoSwift: a532e74ed010f8c95f611d00b8bbae42e9fe7c17
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
+
+PODFILE CHECKSUM: f81db6c473ebcadd7c0e0c066e9a93f698cfdee1
+
+COCOAPODS: 1.11.2
